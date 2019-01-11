@@ -1,0 +1,102 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+.outer2 {
+  background-image:url("https://assets3.thrillist.com/v1/image/2732279/size/tmg-article_main_wide_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: 1300px 850px;
+  position:fixed;
+  top: 41px;
+  left: 230px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.outer3 {
+  background-image:url("https://wallpapercave.com/wp/Me0Zt6c.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: 1300px 850px;
+  position:fixed;
+  top: 41px;
+  left: 230px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.outer {
+  position: fixed;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+}
+
+h1 { font-weight: 600;
+    color: yellow;
+}
+
+h2 { font-weight: 500;
+    color: black;
+}
+
+h3 { font-weight: 500;
+    color: white;
+}
+
+h4 { font-weight: 500;
+    color: black;
+}
+
+h5 { font-weight: 600;
+    color: white;
+}
+
+#controls {
+  /* Appearance */
+  background-color: blue;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+#controls1 {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.4;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls1:hover {
+  /* Fade in while hovering */
+  opacity: 0.90;
+  transition-delay: 0;
+}
+
